@@ -1,0 +1,11 @@
+id,question,answer,category
+faq_001,How do I reset my password?,Open the sign-in page and select Forgot Password. Follow the instructions sent to your registered email.,account
+faq_002,I cannot log in to my account,Check that your email and password are correct. If you still cannot sign in reset your password.,account
+faq_003,How do I register for courses?,Sign in to the student portal and open Course Registration. Choose available courses and submit your selection before the deadline.,academics
+faq_004,When can I see my exam results?,Exam results appear in the student portal after instructors publish and approve them.,academics
+faq_005,How can I get my academic transcript?,Contact the registrar office and submit a transcript request. Include your student ID and follow the office instructions.,academics
+faq_006,How do I pay school fees?,Use the payment methods announced by the finance office. Keep your receipt and confirm that the payment is recorded.,payments
+faq_007,My payment is not showing in the portal,Keep your payment receipt and contact the finance office with the transaction reference so they can verify the payment.,payments
+faq_008,How do I contact technical support?,Send the support team a clear description of the issue and include any error message. Do not share your password.,support
+faq_009,The student portal is not loading,Check your internet connection and try refreshing the page. If the issue continues contact technical support.,support
+faq_010,How do I update my phone number?,Open your profile settings if editing is enabled. Otherwise contact the registrar or support team to update your contact information.,account
