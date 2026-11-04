@@ -1,0 +1,69 @@
+# SMS Spam Filter: Adversarial Testing
+
+## 1. Project Overview
+
+This project implements a machine learning-based SMS spam detector using TF-IDF and Multinomial Naive Bayes.
+
+The objective is to train a model, measure its accuracy, and test its weaknesses using five carefully designed SMS messages.
+
+## 2. Dataset
+
+Dataset: [UCI SMS Spam Collection](https://archive.ics.uci.edu/dataset/228/sms+spam+collection)
+
+The dataset contains SMS messages classified into two categories:
+
+- Ham: Normal messages.
+- Spam: Unwanted or fraudulent messages.
+
+The dataset is downloaded directly by the notebook and is not uploaded to this repository.
+
+## 3. Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- TF-IDF Vectorizer
+- Multinomial Naive Bayes
+- Jupyter Notebook
+
+## 4. Model Accuracy
+
+Actual test accuracy: [INSERT YOUR ACCURACY HERE]%
+
+The model was evaluated using an 80/20 training and testing split.
+
+## 5. Adversarial Testing Results
+
+| My message | Model said | Should be | Why it failed |
+|---|---|---|---|
+| Cl@im your fr33 g1ft card now | Actual prediction | Spam | Spelling tricks hide familiar words. |
+| Not free, just confirming lunch at 1pm | Actual prediction | Ham | Model may ignore negation. |
+| Good afternoon. Kindly verify your account to receive the complimentary reward. | Actual prediction | Spam | Polite wording disguises suspicious intent. |
+| Your parcel is waiting. Pay the small release fee at bit.ly/claim-now | Actual prediction | Spam | Unfamiliar URL and payment wording. |
+| You have won a £500 voucher! Text WIN to 80085 now to claim. | Actual prediction | Spam | Prize and urgency techniques. |
+
+Replace each prediction with the actual output from the notebook. These are expected labels, not assumed model results.
+
+## 6. Techniques Used to Fool the Model
+
+1. Spelling manipulation: Replacing letters with numbers and symbols.
+2. Negation: Using words such as "not" to change the meaning.
+3. Businesslike language: Using polite and professional wording.
+4. URL manipulation: Including shortened links and payment requests.
+5. Prize manipulation: Using rewards, urgency, and promotional language.
+
+## 7. What I Learned
+
+I learned that a machine learning model can achieve good accuracy but still make mistakes when messages use unfamiliar spelling or misleading wording.
+
+I also learned that traditional Naive Bayes models mainly recognize word patterns and do not fully understand context, negation, or the actual intention of a message.
+
+## 8. Project Files
+
+- spam_filter.ipynb: Model implementation, training, accuracy evaluation, and adversarial testing.
+- README.md: Project documentation and experimental results.
+- requirements.txt: Required Python libraries.
+
+## 9. Conclusion
+
+This experiment demonstrates the strengths and limitations of a basic machine learning spam detector. Adversarial testing helps identify weaknesses and shows why more advanced text-processing techniques may be necessary.

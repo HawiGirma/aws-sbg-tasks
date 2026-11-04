@@ -1,5 +1,23 @@
+# Virtual environment
 .venv/
+venv/
+ENV/
+
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
+*$py.class
+
+# ChromaDB storage
 chroma_db/
+*.sqlite3
+
+# Model caches
+.cache/
+model_cache/
+*.bin
+*.pt
+*.safetensors
+
+# Jupyter / Colab checkpoints
 .ipynb_checkpoints/

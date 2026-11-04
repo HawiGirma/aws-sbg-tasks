@@ -1,0 +1,86 @@
+[
+  {
+    "id": "faq_001",
+    "question": "How do I reset my password?",
+    "answer": "Open the sign-in page and select Forgot Password. Follow the instructions sent to your registered email.",
+    "category": "account"
+  },
+  {
+    "id": "faq_002",
+    "question": "I cannot log in to my account",
+    "answer": "Check that your email and password are correct. If you still cannot sign in reset your password.",
+    "category": "account"
+  },
+  {
+    "id": "faq_003",
+    "question": "How do I register for courses?",
+    "answer": "Sign in to the student portal and open Course Registration. Choose available courses and submit your selection before the deadline.",
+    "category": "academics"
+  },
+  {
+    "id": "faq_004",
+    "question": "When can I see my exam results?",
+    "answer": "Exam results appear in the student portal after instructors publish and approve them.",
+    "category": "academics"
+  },
+  {
+    "id": "faq_005",
+    "question": "How can I get my academic transcript?",
+    "answer": "Contact the registrar office and submit a transcript request. Include your student ID and follow the office instructions.",
+    "category": "academics"
+  },
+  {
+    "id": "faq_006",
+    "question": "How do I pay school fees?",
+    "answer": "Use the payment methods announced by the finance office. Keep your receipt and confirm that the payment is recorded.",
+    "category": "payments"
+  },
+  {
+    "id": "faq_007",
+    "question": "My payment is not showing in the portal",
+    "answer": "Keep your payment receipt and contact the finance office with the transaction reference so they can verify the payment.",
+    "category": "payments"
+  },
+  {
+    "id": "faq_008",
+    "question": "How do I contact technical support?",
+    "answer": "Send the support team a clear description of the issue and include any error message. Do not share your password.",
+    "category": "support"
+  },
+  {
+    "id": "faq_009",
+    "question": "The student portal is not loading",
+    "answer": "Check your internet connection and try refreshing the page. If the issue continues contact technical support.",
+    "category": "support"
+  },
+  {
+    "id": "faq_010",
+    "question": "How do I update my phone number?",
+    "answer": "Open your profile settings if editing is enabled. Otherwise contact the registrar or support team to update your contact information.",
+    "category": "account"
+  },
+  {
+    "id": "faq_011",
+    "question": "How do I connect to campus Wi-Fi?",
+    "answer": "Select the student campus network and log in using your student email credentials. If you experience connection issues contact IT support.",
+    "category": "support"
+  },
+  {
+    "id": "faq_012",
+    "question": "How do I borrow books from the library?",
+    "answer": "Present your university student ID card at the library circulation desk. Students can borrow up to three items for fourteen days.",
+    "category": "general"
+  },
+  {
+    "id": "faq_013",
+    "question": "What is the deadline for tuition refunds?",
+    "answer": "Tuition refund requests must be submitted to the finance office within the first two weeks of the semester with an approved withdrawal form.",
+    "category": "payments"
+  },
+  {
+    "id": "faq_014",
+    "question": "What are the requirements for graduation clearance?",
+    "answer": "Students must complete all required credits and clear any outstanding obligations with the library, department, and finance office.",
+    "category": "academics"
+  }
+]
